@@ -36,10 +36,7 @@ const Index = () => {
           </div>
 
           <div className="flex items-center justify-center gap-8 text-sm text-gray-500">
-            <div className="flex items-center">
-              <Icon name="Users" size={16} className="mr-2" />
-              2,500+ студентов
-            </div>
+            <div className="flex items-center">2,500+ студент</div>
             <div className="flex items-center">
               <Icon name="Star" size={16} className="mr-2 text-yellow-500" />
               4.9 из 5 звезд
