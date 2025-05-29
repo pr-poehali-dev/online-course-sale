@@ -24,7 +24,7 @@ const Index = () => {
 
           <h1 className="font-bold mb-6 leading-tight text-neutral-900 text-6xl">
             Станьте экспертом в
-            <span className="text-purple-600"> веб-разработке</span>
+            <span className="text-red-600"> веб-разработке</span>
             <br />
             за 3 месяца
           </h1>
