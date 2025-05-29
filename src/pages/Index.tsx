@@ -24,12 +24,7 @@ const Index = () => {
           </Badge>
 
           <h1 className="font-bold mb-6 leading-tight text-neutral-900 text-6xl">
-            <Icon
-              name="Rocket"
-              size={48}
-              className="inline mr-4 text-purple-600"
-            />
-            Хахахахаха
+            Хах
           </h1>
 
           <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">РОфл!</p>
