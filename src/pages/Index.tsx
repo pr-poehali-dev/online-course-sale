@@ -218,9 +218,7 @@ const Index = () => {
                       <h4 className="font-semibold text-gray-900">
                         {testimonial.name}
                       </h4>
-                      <p className="text-sm text-gray-600">
-                        {testimonial.role}
-                      </p>
+                      <p className="text-sm text-gray-600">олрл</p>
                     </div>
                   </div>
                   <p className="text-gray-700 italic">"{testimonial.text}"</p>
