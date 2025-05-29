@@ -19,10 +19,16 @@ const Index = () => {
             variant="secondary"
             className="mb-6 bg-purple-100 text-purple-700 px-4 py-2"
           >
+            <Icon name="Zap" size={16} className="mr-2" />
             🔥 Новый курс 2024
           </Badge>
 
           <h1 className="font-bold mb-6 leading-tight text-neutral-900 text-6xl">
+            <Icon
+              name="Rocket"
+              size={48}
+              className="inline mr-4 text-purple-600"
+            />
             Хахахахаха
           </h1>
 
@@ -109,6 +115,11 @@ const Index = () => {
       <section className="px-6 py-16 bg-gray-50">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
+            <Icon
+              name="BookOpen"
+              size={32}
+              className="inline mr-3 text-purple-600"
+            />
             Программа курса
           </h2>
 
@@ -148,12 +159,16 @@ const Index = () => {
               <Card key={index} className="p-6">
                 <div className="flex items-start space-x-4">
                   <div className="w-12 h-12 bg-purple-600 text-white rounded-full flex items-center justify-center font-bold">
-                    {index + 1}
+                    <Icon name="Clock" size={20} />
                   </div>
                   <div className="flex-1">
                     <div className="flex items-center space-x-3 mb-2">
-                      <Badge variant="outline">{module.month}</Badge>
+                      <Badge variant="outline">
+                        <Icon name="Calendar" size={14} className="mr-1" />
+                        {module.month}
+                      </Badge>
                       <h3 className="text-xl font-semibold text-gray-900">
+                        <Icon name="Award" size={20} className="inline mr-2" />
                         {module.title}
                       </h3>
                     </div>
@@ -184,6 +199,11 @@ const Index = () => {
       <section className="px-6 py-16 bg-white">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
+            <Icon
+              name="MessageCircle"
+              size={32}
+              className="inline mr-3 text-purple-600"
+            />
             Отзывы наших выпускников
           </h2>
 
@@ -212,17 +232,32 @@ const Index = () => {
                 <CardContent className="space-y-4">
                   <div className="flex items-center space-x-3">
                     <div className="w-12 h-12 bg-gradient-to-r from-purple-500 to-indigo-500 rounded-full flex items-center justify-center text-white font-bold">
-                      {testimonial.name[0]}
+                      <Icon name="User" size={20} />
                     </div>
                     <div>
                       <h4 className="font-semibold text-gray-900">
                         {testimonial.name}
                       </h4>
-                      <p className="text-sm text-gray-600">олрл</p>
+                      <p className="text-sm text-gray-600">
+                        <Icon
+                          name="Building"
+                          size={14}
+                          className="inline mr-1"
+                        />
+                        {testimonial.role}
+                      </p>
                     </div>
                   </div>
-                  <p className="text-gray-700 italic">"{testimonial.text}"</p>
+                  <p className="text-gray-700 italic">
+                    <Icon
+                      name="Quote"
+                      size={16}
+                      className="inline mr-2 text-gray-400"
+                    />
+                    "{testimonial.text}"
+                  </p>
                   <Badge className="bg-green-100 text-green-700">
+                    <Icon name="DollarSign" size={14} className="mr-1" />
                     Зарплата: {testimonial.salary}
                   </Badge>
                 </CardContent>
@@ -236,6 +271,7 @@ const Index = () => {
       <section className="px-6 py-16 bg-gradient-to-r from-purple-600 to-indigo-600 text-white">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-6">
+            <Icon name="Target" size={32} className="inline mr-3" />
             Начните карьеру в IT уже сегодня
           </h2>
           <p className="text-xl mb-8 opacity-90">
@@ -245,7 +281,8 @@ const Index = () => {
           <Card className="max-w-md mx-auto bg-white text-gray-900 p-8">
             <div className="text-center space-y-6">
               <div>
-                <div className="text-4xl font-bold text-purple-600 bg-gray-700">
+                <div className="text-4xl font-bold text-purple-600 flex items-center justify-center">
+                  <Icon name="DollarSign" size={36} className="mr-2" />
                   34 000 ₽
                 </div>
                 <div className="text-lg text-gray-500 line-through">
