@@ -59,7 +59,7 @@ const Index = () => {
       <section className="px-6 py-16 bg-white">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-bold text-center mb-12 text-yellow-300">
-            Почему выбирают наш курс
+            Почему выбирают наш курс5
           </h2>
 
           <div className="grid md:grid-cols-3 gap-8">
