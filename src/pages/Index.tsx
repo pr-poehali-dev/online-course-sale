@@ -250,7 +250,7 @@ const Index = () => {
           <Card className="max-w-md mx-auto bg-white text-gray-900 p-8">
             <div className="text-center space-y-6">
               <div>
-                <div className="text-4xl font-bold text-purple-600">
+                <div className="text-4xl font-bold text-purple-600 bg-gray-700">
                   34 000 ₽
                 </div>
                 <div className="text-lg text-gray-500 line-through">
@@ -286,7 +286,7 @@ const Index = () => {
                 Записаться на курс
               </Button>
 
-              <p className="text-sm text-gray-500">
+              <p className="text-sm text-red-700 text-left">
                 💸 Возможна рассрочка на 12 месяцев
               </p>
             </div>
