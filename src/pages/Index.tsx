@@ -32,10 +32,7 @@ const Index = () => {
             Хахахахаха
           </h1>
 
-          <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-            Изучите современные технологии, создайте портфолио из 5 проектов и
-            получите работу мечты в IT
-          </p>
+          <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">РОфл!</p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
             🔥 Новый курс 202555
