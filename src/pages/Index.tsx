@@ -35,17 +35,7 @@ const Index = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-            <Button
-              size="lg"
-              className="bg-purple-600 hover:bg-purple-700 px-8 py-4 text-lg"
-            >
-              <Icon name="Play" className="mr-2" />
-              Начать обучение
-            </Button>
-            <Button variant="outline" size="lg" className="px-8 py-4 text-lg">
-              <Icon name="Video" className="mr-2" />
-              Смотреть демо
-            </Button>
+            🔥 Новый курс 2025
           </div>
 
           <div className="flex items-center justify-center gap-8 text-sm text-gray-500">
