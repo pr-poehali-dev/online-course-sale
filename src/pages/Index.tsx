@@ -22,7 +22,7 @@ const Index = () => {
             🔥 Новый курс 2024
           </Badge>
 
-          <h1 className="text-5xl font-bold text-gray-900 mb-6 leading-tight">
+          <h1 className="font-bold mb-6 leading-tight text-neutral-900 text-6xl">
             Станьте экспертом в
             <span className="text-purple-600"> веб-разработке</span>
             <br />
