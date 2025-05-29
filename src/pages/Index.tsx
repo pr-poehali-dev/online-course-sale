@@ -35,7 +35,7 @@ const Index = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-            🔥 Новый курс 2025
+            🔥 Новый курс 202555
           </div>
 
           <div className="flex items-center justify-center gap-8 text-sm text-gray-500">
