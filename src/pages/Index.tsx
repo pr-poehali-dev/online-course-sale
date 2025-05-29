@@ -264,7 +264,7 @@ const Index = () => {
             <div className="text-center space-y-6">
               <div>
                 <div className="text-4xl font-bold text-purple-600">
-                  39,900 ₽
+                  34 000 ₽
                 </div>
                 <div className="text-lg text-gray-500 line-through">
                   59,900 ₽
