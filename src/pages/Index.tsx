@@ -23,10 +23,7 @@ const Index = () => {
           </Badge>
 
           <h1 className="font-bold mb-6 leading-tight text-neutral-900 text-6xl">
-            Станьте экспертом в
-            <span className="text-red-600"> веб-разработке</span>
-            <br />
-            за 3 месяца
+            Хахахахаха
           </h1>
 
           <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
